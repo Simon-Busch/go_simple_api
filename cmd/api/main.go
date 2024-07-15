@@ -14,7 +14,7 @@ func main () {
 
 	log.SetReportCaller(true)
 	var r *chi.Mux = chi.NewRouter()
-	handlers.Hanlder(r)
+	handlers.Handler(r)
 
 	fmt.Println("Server is running on port 8080")
 
